@@ -1,0 +1,87 @@
+body {
+    margin: 20px;
+}
+
+.calculator-body{
+    border-radius: 20px;
+    margin-left: 30px;
+    height: 550px;
+    width: 400px;
+    background-color: #c4b7a6;
+
+}
+
+.screen {
+
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 360px;
+    height: 140px;
+    background-color: #F6F1F1;
+}
+
+.screen-content {
+    margin: 10px;
+    font-family: 'digital-clock-font';
+    padding-left: 10px;
+    align-self: end;
+    justify-self:end;
+    font-size: 40px;
+}
+
+.button {
+    margin: 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 70px;
+    gap: 1px;
+    font-size: large;
+    margin-top: 15px;
+
+}
+
+.first-row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourth-row {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.button.modulo, .button.divide, .button.clear, .button.ON {
+    margin-left: 2px;
+}
+
+.button.ON, .button.button.clear {
+    background-color: #617A55;
+    color: white;
+}
+
+.button.multiply, .button.minus, .button.squareRt, .button.add {
+    color: white;
+    background-color: #617A55;
+
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url(../fonts/digital-7.regular.ttf);
+   }
+   
